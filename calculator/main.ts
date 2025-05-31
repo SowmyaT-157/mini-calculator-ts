@@ -14,15 +14,14 @@ else{
    console.log(`The sum is ${sum}`)
 }
 
-import promptSync from 'prompt-sync';
-const prompt = promptSync();
 
-const num1 = parseFloat(prompt('Enter first number: '));
-const num2 = parseFloat(prompt('Enter second number: '));
+
+const number1 = parseFloat(prompt('Enter first number: '));
+const number2 = parseFloat(prompt('Enter second number: '));
 
 function subtract(a: number, b: number): number {
   return a - b;
 }
 
-const result = subtract(num1, num2);
+const result = subtract(number1, number2);
 console.log(`Result: ${result}`);
